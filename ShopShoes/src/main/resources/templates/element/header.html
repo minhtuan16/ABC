@@ -1,0 +1,23 @@
+<div class=" w3-container-fluid w3-bar w3-black"
+	th:fragment="header-section" height="60">
+	<div class="container">
+		<a href="#" class="w3-bar-item w3-button"> <img
+			class="rounded-pill" src="/img/logo3.png" height="50" />
+		</a>
+		
+		<form th:action="@{/logout}" method="post" >
+			<a href="#" class="w3-bar-item w3-right" >
+				<button type="submit"  class="w3-button w3-deep-orange" style="margin-top: 2px;">
+					<span class="glyphicon glyphicon-log-in"></span> Logout
+				</button>
+			</a>
+		
+		<a href="#" class="w3-bar-item w3-button w3-right"style="margin-top: 10px;"> 
+			<span class="glyphicon glyphicon-user"></span>
+			<span>
+	        	<b>[[${#request.userPrincipal.principal.username}]]</b>
+            </span>
+		</a>
+		</form>
+	</div>
+</div>

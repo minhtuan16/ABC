@@ -1,0 +1,34 @@
+
+<div th:fragment="menu-body" class="list-group w3-sidebar w3-bar-block w3-card w3-animate-left " style="display:none" id="mySidebar">
+
+	<button class="w3-bar-item w3-button w3-text-deep-orange w3-large list-group-item list-group-item-action list-group-item-light"  onclick="w3_close()">Close &times;</button>
+
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/category/search}">Category</a>
+    
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/product/search}">Product</a>
+    
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/size/search}">Size</a>
+    
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/product_size/search}">ProductSize</a>
+		
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/billitems/search}">BillItems</a>
+    
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/bill/search}">Bill</a>
+    
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/coupon/search}">Coupon</a>
+    
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/user/search}">User</a>
+		
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/bill/thongKe}">Count Bill/Month</a>
+		
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/bill/thongKe2}">Count Bill/UserName</a>
+		
+    <a class="w3-bar-item w3-button list-group-item list-group-item-action list-group-item-light" th:href="@{/admin/bill/thongKe3}">Count Bill/CouponCode</a>
+	
+	<form th:action="@{/logout}" method="post" style="margin-top: 10px;">
+		<button type="submit">
+			<a class="w3-bar-item w3-button w3-deep-orange">Logout</a>
+		</button>
+	</form>	
+</div>
+

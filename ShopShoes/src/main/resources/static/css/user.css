@@ -1,0 +1,164 @@
+html,
+body {
+    height: 100%;
+}
+
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column;
+    }
+    .col-25 {
+        margin-top: 16px;
+    }
+}
+
+h5 {
+    color: rgb(67, 67, 67);
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 700px;
+    padding: 15px;
+    margin: 0 auto;
+
+}
+
+
+.col-50 {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+    margin: 0, auto;
+    padding: 0 20px
+}
+
+.container-cart {
+    background-color: #fff;
+    padding: 5px 20px 5px 20px;
+    margin: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.bg-lightgrey {
+    background-color: #f2f2f2;
+    min-height: 400px;
+}
+
+.label-user {
+    width:120px; 
+    margin-right: 20px; 
+    margin-top: 5px;
+}
+
+.cont {
+    width: 100%;
+}
+
+.bor {
+    border: 1px solid black;
+}
+
+#wrapper {
+    position: relative;
+    min-height: 91vh;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Footer height */
+}
+.m-top {
+    margin-top: 20px;
+}
+
+.m-bottom {
+    margin-bottom: 0.8rem;
+}
+
+.qtt{
+    width:100%; 
+    margin: 0, auto; 
+    height: auto; 
+    padding: 10px; 
+    position: relative;
+    text-align: center;
+}
+.rel{
+    margin: 0, auto;
+    position: relative;
+}
+/*Using abve */
+
+/* 
+
+.divider-vertical {
+    border-left: 1px solid lightgrey;
+    height: auto;
+}
+
+.corner-cel {
+    width: 20%;
+}
+
+.middle-cel {
+    width: 60%;
+}
+
+.item-cel {
+    margin: 10px;
+    width: 100%;
+}
+
+.item-icon-delete {
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.item-icon-delete:hover {
+    color: red;
+}
+
+.item-img img {
+    border: 1px solid lightgrey;
+    max-width: 110px;
+    max-height: 110px;
+}
+
+.item-price {
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.input-zip {
+    max-width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item-select {
+    max-width: 40px;
+    padding: 0.1em;
+}
+
+.label {
+    padding: 5px;
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+} */
+

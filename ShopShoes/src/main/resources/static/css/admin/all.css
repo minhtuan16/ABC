@@ -1,0 +1,54 @@
+.bor {
+    border: 1px solid black;
+}
+.cont {
+    width: 100%;
+}
+.m-left {
+    margin-left: 10px;
+}
+.m-top-1{
+    margin-top: 20px;
+}
+
+.a-card:hover {
+    text-decoration: none;
+}
+
+.middle {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.box {
+    padding: 10px; 
+}
+.row-1 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.confir{
+    width: 80%;
+}
+
+.rel{
+    position: relative;
+}
+
+.status-icon{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+/* Using above*/
+
